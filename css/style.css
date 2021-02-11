@@ -307,6 +307,9 @@ iframe {
   text-align: center;
   z-index: 999;
 }
+.i1 , .i2 , .i3  {
+  width: 100%;
+}
 
 /*MEDIA QUERY 425*/
 @media (max-width: 426px) {
