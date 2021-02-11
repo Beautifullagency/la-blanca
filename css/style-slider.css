@@ -1,46 +1,22 @@
 .car {
   position: relative;
 }
-@media (max-width: 426px) {
-  .car {
-    height: 100%;
-  }
-   .i1 {
-    content:url('../img/slide1-mobil.png');
-    height:80%;
-  }
-  .i2 {
-    content:url('../img/slide2-mobil.png');
-    height: 80%;    
-  }
-  .i3 {
-    content:url('../img/slide3-mobil.png');
-    height: 80%;   
-  } 
-  .container-titulo {
-    bottom: 180px !important;   
-  }
-  .car-indicators {
-    bottom: 20% !important;
-}
-}
-
 .car-open:checked + .car-item {
   position: static;
-  opacity: 100;
+  opacity: 1;
 }
-
 .car-item {
+  width: 100%;
   position: absolute;
   opacity: 0;
   -webkit-transition: opacity 0.6s ease-out;
   transition: opacity 0.6s ease-out;
 }
-
 .car-item img {
   display: block;
   height: auto;
   max-width: 100%;
+  width: 100%;
 }
 .prev {
   background-image: url('../img/Left-Arrow.png');
@@ -136,4 +112,28 @@
 }
 .card {
   height: 100% !important;
+}
+
+@media (max-width: 426px) {
+  .car {
+    height: 100%;
+  }
+   .i1 {
+    content:url('../img/slide1-mobil.png');
+    height:80%;
+  }
+  .i2 {
+    content:url('../img/slide2-mobil.png');
+    height: 80%;    
+  }
+  .i3 {
+    content:url('../img/slide3-mobil.png');
+    height: 80%;   
+  } 
+  .container-titulo {
+    bottom: 180px !important;   
+  }
+  .car-indicators {
+    bottom: 20% !important;
+}
 }
