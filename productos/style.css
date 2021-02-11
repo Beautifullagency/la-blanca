@@ -1,0 +1,214 @@
+/*HERRAMIENTAS*/
+html {
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+  }
+  *, *:before, *:after {
+  box-sizing: inherit;
+  }
+
+.max-w {
+  max-width: 1240px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.nu-16 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: min(1.4vw, 14px);
+}
+.nu-20 {
+  font-family: 'Nunito Sans';
+  font-size: min(2.5vw, 20px);
+}
+.nu-26 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: min(2.5vw, 20px);
+}
+.nu-44 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: min(2.4vw, 40px);
+}
+.color {
+  color: #ff4438;
+}
+
+/*PLUGIN*/
+.productos {
+  background-color: #f8f8f8;
+}
+.categoria-producto {
+  margin: 5px;
+  padding: 1% 4% 1% 4%;
+  letter-spacing: 0px;
+  color: #888888;
+  opacity: 1;
+  background: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 6px;
+  opacity: 1;
+  border: none;
+}
+.categoria-producto:focus {
+  outline: none;
+  background: #ff4438;
+  color: #ffffff;
+}
+.op-1 {
+  opacity: 1;
+}
+.op-0 {
+  transition: all 5s ease;
+  opacity: 0;
+}
+.tarjeta {
+  padding-left: 0 !important;
+}
+.img-miniatura {
+  border: 1px solid #0000001f;
+  background-color: #fff;
+  padding: 15%;
+  border-radius: 8px;
+  box-shadow: 0px 3px 5px #0000001f;
+  cursor: pointer;
+}
+.img-min {
+  box-sizing:border-box;  
+  -webkit-box-sizing: border-box;
+  padding-bottom: 30px;
+}
+.img-min:hover {
+  transition: border-bottom ease 2s;
+  border-bottom: 3px solid #ff4438;
+}
+.img-min:focus {
+  border-bottom: 3px solid #ff4438;
+}
+.img-miniatura:focus {
+  outline: none;
+  border: 2px solid #ff4438;
+}
+.b {
+  border-bottom: 3px solid #f8f8f8;
+}
+.linea {
+
+}
+
+/*PAGINA DE PRODUCTO*/
+.catalogo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.btn-producto {
+  padding: 2%;
+  border-radius: 8px;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background: #ffffff;
+  border: 3px solid #ff4438;
+  opacity: 1;
+  color: #ff4438;
+}
+#producto h3 {
+  margin-top: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: min(7vw, 26px);
+}
+#producto h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: min(4vw, 20px);
+  color: #605f5f;
+}
+#producto p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: min(4vw, 16px);
+  color: #605f5f;
+}
+
+@media (max-width: 426px) {
+  
+  .botones {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .categoria-producto {
+    margin: 5px;
+    padding: 3% 5% 3% 5%;
+    letter-spacing: 0px;
+    color: #ff4438;
+    opacity: 1;
+    background: #fff;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+    border: none;
+  }
+  .tarjeta {
+    width: 50% !important;
+    margin-bottom: calc(var(--bs-gutter-x) / 2);
+  }
+  #tarjetas-miniaturas {
+    position: relative;
+    margin-bottom: 0 !important;
+  }
+  #targetas-miniaturas:focus {
+    border: 2px solid #ff4438;
+  }
+  .miniatura {
+    width: 60%;
+  }
+  .img-miniatura {
+    padding: 5%;
+  }
+  .titulo {
+    color: #ff4438;
+  }
+  .img-grande {
+    width: 50%;
+  }
+  #producto h3 {
+    margin-top: 10px;
+    font-size: min(7vw, 26px);
+  }
+  #producto h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: min(4vw, 20px);
+  }
+  #producto p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: min(4vw, 16px);
+  }
+
+  .nu-16 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: min(1.4vw, 14px);
+  }
+  .nu-20 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: min(4vw, 12px);
+  }
+  .nu-26 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    font-size: min(4.1vw, 100px);
+  }
+  .nu-44 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: min(2.4vw, 40px);
+  }
+}
