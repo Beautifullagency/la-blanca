@@ -47,7 +47,7 @@
         </div>
       </nav>
     <!--SLIDER-->
-    <div class="car">
+    <div class="car" id="car">
         <div class="container-titulo">
             <h1 class="nu-44">Llevamos <span class="color">el mejor dulce de leche</span></h1>
             <h1 class="nu-44"><span class="color"> de Argentina</span> al mundo</h1>
@@ -85,7 +85,7 @@
         </div>
     </div>
     <!--img-->
-    <img class="icon-down mx-auto d-flex my-5" src="./img/Down-Arrow.png" alt="" aria-hidden="true">
+    <img class="icon-down mx-auto d-flex my-5" src="./img/Down-Arrow.png" alt="" aria-hidden="true" id="quienes-somos">
     <!--Seccion 2  -->
     <div class="container py-sm-5 mt-sm-5 max-v">
         <div class="row">
@@ -120,8 +120,48 @@
     <h2 class="color max-w mx-sm-auto nu-32 mb-0 tit"><span class="titulo-prod">Productos </span><span class="color tit-prod">/</span> Dulce de leche para la industria</h2>
     <iframe src="./productos/index.html" frameborder="0"></iframe>
     <!--SECCION 4-->
-    <div class="sec-4 container-fluid max-w py-5">
-        <div id="myCarousel" class="carousel slide sec-4-1 mx-sm-auto" data-ride="carousel">
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle"> Las recetas más deliciosas con nuestro dulce de leche </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <h2>Dulce de leche heladero</h2>
+            <h5>Cómo hacer helado de dulce de leche</h5>
+            <p>Una receta de helado de dulce de leche ¡Facilísimo y sin máquina!</p>
+            <p>Ingredientes para 4 porciones:</p>
+                <ul>
+                    <li>500g. de dulce de leche heladero</li>
+                    <li>250g. de crema de leche</li>
+                    <li>250g. de leche</li>
+                </ul>
+            <p>Preparación:</p>
+            <ol>
+                <li>Mezclar de a poco en un bol el dulce de leche con la crema de leche (sin batir). Una vez mezclados los ingredientes, batir bien.</li>
+                <li>Agregar la leche e integrar todo.</li>
+                <li>Llevar el bol al freezer por al menos 3 horas.</li>
+                <li>Transcurridas las 3 horas, sacar la preparación del freezer y volver a batir. Llevar otra vez al freezer por al menos una hora.</li>
+                <li>Repetir este proceso cuantas veces sea necesario para que se rompan los cristales de hielo y el helado quede bien cremoso.</li>
+            </ol> 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+      <div class="sec-4 container-fluid max-w py-5">
+        <div id="myCarousel" class="carousel slide sec-4-1 mx-sm-auto" data-ride="">
             <h2 class="text-initial mb-3 ml-3 color nu-32">Recetas</h2>
             <h4 class="text-initial mb-3 ml-3 nu-32">Las recetas más deliciosas con nuestro dulce de leche</h4>
             <div class="carousel-inner row w-100 mx-auto">
@@ -132,7 +172,9 @@
                             <h4 class="card-title nu-16 font-weight-bold">Cómo hacer helado de dulce de leche</h4>
                             <p class="card-text nu-16">Una receta facilísima usando dulce de leche heladero, ¡Y sin maquina!
                             </p>
-                            <a class="card-text nu-16 ct"><small class="color">Ver receta</small></a>
+                            <!-- Button trigger modal -->
+                            <a class="card-text nu-16 ct" data-toggle="modal" data-target="#exampleModalLong"><small class="color">Ver receta</small></a>
+                          
                         </div>
                     </div>
                 </div>

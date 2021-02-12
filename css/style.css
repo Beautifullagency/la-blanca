@@ -79,6 +79,8 @@ body {
 .navbar {
   background-color: #fff;
   transition: background-color 1.5s;
+  z-index: 1000;
+  position: sticky;
 }
 .nav-link {
   font-family: 'Nunito Sans';

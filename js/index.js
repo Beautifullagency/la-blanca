@@ -1,5 +1,6 @@
 $(document).ready(function () {
   // FONDO NAVBAR
+  /*
   $(window).scroll(function () {
     if ($('.navbar').offset().top > 100) {
       $('.navbar').addClass('fondo')
@@ -13,7 +14,7 @@ $(document).ready(function () {
       $('.nav-link').removeClass('font1')
       $('.nav-link').addClass('font2')
     }
-  })
+  })*/
 })
 
 const element = document.querySelector('.icon-down');
