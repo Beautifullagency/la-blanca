@@ -84,7 +84,7 @@ function render(name) {
                 'col-sm d-block v-align text-center ms-xl-4 producto'
               pDiv.id = 'producto'
 
-              pImg.className = 'img-grande'
+              pImg.className = 'img-grande py-5'
               pImg.src = producto.imgGrande
               pImg.alt = producto.nombre
               /*COL-2*/

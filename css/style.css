@@ -1,4 +1,8 @@
 /*UTILIDADES*/
+.v-align{
+  display: flex;
+  align-items: center;
+}
 html,
 body {
   margin: 0;
@@ -21,15 +25,6 @@ body {
 .body::-webkit-scrollbar-track {
   background: transparent;
 }
-.m-12 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: 500;
-  font-size: min(1.3vw, 12px);
-}
-.m-14 {
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: min(1.4vw, 14px);
-}
 .nu-16 {
   font-family: 'Nunito Sans', sans-serif;
   font-size: min(1.4vw, 14px);
@@ -43,6 +38,11 @@ body {
   font-weight: 500;
   font-size: min(2.7vw, 30px);
 }
+.nu-32 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 500;
+  font-size: min(2.7vw, 28px);
+}
 .nu-44 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
@@ -51,6 +51,7 @@ body {
 .color {
   color: #ff4438;
 }
+
 .li-color {
   font-weight: 900;
 }
@@ -96,6 +97,7 @@ body {
   color: #ffffff;
   padding: 2% 30% 2% 30%;
   margin-right: 15%;
+  
 }
 .nav-link:hover {
   color: rgb(216, 216, 216);
@@ -103,7 +105,38 @@ body {
 .navbar-brand img {
   width: 100%;
 }
-/*SECCION 1*/
+/*SECCION 3*/
+.frame {
+  height: 1000px;
+}
+@media (max-width: 1024px){
+  .frame {
+    height: 950px;
+  }
+}
+@media (max-width: 769px){
+  .frame {
+    height: 1500px;
+  }
+  .text-inner {
+    text-align: center;
+    margin-left: 10%  !important;
+    width: 80% !important;
+  }
+}
+@media (max-width: 426px){
+  .frame {
+    height: 1300px;
+  }
+
+}
+@media (max-width: 321px){
+  .frame {
+    height: 1100px;
+  }
+
+}
+
 
 /*SECCION  4 CAROUSEL*/
 @media (min-width: 768px) {
@@ -214,6 +247,32 @@ body {
 .sec-4-1 {
   width: 70% !important;
 }
+
+/*SECCION 4 MODAL*/
+.linea1 {
+  border: #0000002a solid 1px ;
+  width: 100%;
+  margin: 0 auto 0 auto;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #ff4438 !important;
+  border-color: #ff4438 !important;
+}
+.modal-title {
+  font-family: 'Nunito Sans', sans-serif;
+  
+  font-size: min(2.4vw, 40px);
+}
+@media (max-width: 426px) {
+.modal-title {    
+    font-size: min(7.5vw, 50px);  
+}
+
+
+}
+
+
 /*SECCION 5*/
 .sec-5 {
   background-size: cover;
@@ -312,6 +371,17 @@ iframe {
 .i1 , .i2 , .i3  {
   width: 100%;
 }
+
+
+@media (max-width: 769px){
+
+  .nu-16 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: min(2.5vw, 14px);
+  }
+}
+
+
 
 /*MEDIA QUERY 425*/
 @media (max-width: 426px) {

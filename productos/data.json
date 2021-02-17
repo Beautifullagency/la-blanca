@@ -3,8 +3,8 @@
         {
             "nombre": "Matinal entero",
             "categoria": "Familiar",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
+            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionada de azucares: sacarosa y glucosa.",
+            "composicion": "Leche fluida, azúcar blanco, jarabe de glucosa. Regulador de acidez: Bicarbonato de sodio.Conservador: Sorbato de potasio  Aromatizante: Esencia de vainilla.",
             "informacion": "./img/info/matinal-entero-info.png",
             "pdf": "./img/info/matinal-entero-info.png",
             "imgMiniatura": "./img/miniatura/matinal-entero.png",
@@ -13,8 +13,8 @@
         {
             "nombre": "Matinal descremado",
             "categoria": "Familiar",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
+            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionada de azucares: sacarosa y glucosa.",
+            "composicion": "Leche fluida, azúcar blanco, jarabe de glucosa. Regulador de acidez: Bicarbonato de sodio.Conservador: Sorbato de potasio  Aromatizante: Esencia de vainilla.",
             "informacion": "./img/info/matinal-entero-info.png",
             "pdf": "./img/info/matinal-entero-info.png",
             "imgMiniatura": "./img/miniatura/matinal-descremado.png",
@@ -23,83 +23,53 @@
         {
             "nombre": "La Agustina Afajorero",
             "categoria": "Repostero",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
+            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida,adicionado de azucares: sacarosa y glucosa, y otras sustancias alimenticias",
+            "composicion": "Leche , azúcar blanco, jarabe de glucosa. Espesante: almidón modificado. Estabilizantes: Carragenina Agar.Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
             "informacion": "./img/info/matinal-entero-info.png",
             "pdf": "./img/info/matinal-entero-info.png",
             "imgMiniatura": "./img/miniatura/la-agustina-alfajorero.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
+            "imgGrande": "./img/grande/la-agustina-alfajorero.png"
         },
         {
             "nombre": "Matinal para sembrar",
             "categoria": "Repostero",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
+            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida,adicionada de azucares: sacarosa y glucosa y almidones modificados.",
+            "composicion": "Leche , azúcar blanco, jarabe de glucosa. Espesante: almidón modificado, Agar,Agar. Estabilizantes: Monoestearato de glicérido. Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
             "informacion": "./img/info/matinal-entero-info.png",
             "pdf": "./img/info/matinal-entero-info.png",
-            "imgMiniatura": "./img/miniatura/matinal-para-sembrar.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
+            "imgMiniatura": "./img/miniatura/matinal-entero.png",
+            "imgGrande": "./img/grande/matinal-entero-grande.png"
         },
         {
             "nombre": "Josefina Repostero",
             "categoria": "Repostero",
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
+            "composicion": "Leche , azúcar blanco,grasa refinada,  jarabe de glucosa,  almidón modificado. Estabilizantes: Carragenina Agar.Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
             "informacion": "./img/info/matinal-entero-info.png",
             "pdf": "./img/info/matinal-entero-info.png",
             "imgMiniatura": "./img/miniatura/josefina-repostero.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
+            "imgGrande": "./img/grande/Josefina-Grande.png"
         },
         {
             "nombre": "Sosiego Repostero",
             "categoria": "Repostero",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
+            "descripcion": "Producto obtenido por concentración y acción del calor apresión normal de leche o leche reconstituida,adicionado de azucares: sacarosa y glucosa, y otras sustancias alimenticias.",
+            "composicion": "Leche , azúcar blanco,grasa refinada,  jarabe de glucosa,  almidón modificado. Estabilizantes: Carragenina Agar.Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
             "informacion": "./img/info/matinal-entero-info.png",
             "pdf": "./img/info/matinal-entero-info.png",
             "imgMiniatura": "./img/miniatura/sosiego-repostero.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
+            "imgGrande": "./img/grande/Sosiego-grande.png"
         },
         {
-            "nombre": "Matinal descremado",
+            "nombre": "La Agustina",
             "categoria": "Heladero",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
+            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras sustancias alimenticias. Se determina el punto final de cocción al alcanzar 70% de sólidos solubles.",
+            "composicion": "Leche entera fluida, azúcar blanca, jarabe de glucosa, suero en polvo. Colorante: Caramelo. Regulador de acidez: Bicarbonato de sodio.",
             "informacion": "./img/info/matinal-entero-info.png",
             "pdf": "./img/info/matinal-entero-info.png",
-            "imgMiniatura": "./img/miniatura/matinal-entero.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
-        },
-        {
-            "nombre": "Matinal descremado",
-            "categoria": "Heladero",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
-            "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
-            "imgMiniatura": "./img/miniatura/matinal-entero.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
-        },
-        {
-            "nombre": "Matinal descremado",
-            "categoria": "Heladero",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
-            "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
-            "imgMiniatura": "./img/miniatura/matinal-entero.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
-        },
-        {
-            "nombre": "Matinal descremado",
-            "categoria": "Heladero",
-            "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
-            "composicion": "Leche, azúcar blanco, jarabe de glucosa, almidón modificado, colorante caramelo, caramelo. Regulador de acidez: Bicarbonato de sodio. Conservador: sorbato de potasio.",
-            "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
-            "imgMiniatura": "./img/miniatura/matinal-entero.png",
-            "imgGrande": "./img/grande/laagustina-grande.png"
-        }        
+            "imgMiniatura": "./img/miniatura/LaAgustina-Chico.png",
+            "imgGrande": "./img/grande/laAgustina-grande.png"
+        }      
         
     ]
 }

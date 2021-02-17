@@ -65,10 +65,13 @@ html {
 .tarjeta {
   padding-left: 0 !important;
 }
+.miniatura {
+  width: 60%;
+}
 .img-miniatura {
   border: 1px solid #0000001f;
   background-color: #fff;
-  padding: 15%;
+  padding: 7%;
   border-radius: 8px;
   box-shadow: 0px 3px 5px #0000001f;
   cursor: pointer;
@@ -91,9 +94,6 @@ html {
 }
 .b {
   border-bottom: 3px solid #f8f8f8;
-}
-.linea {
-
 }
 
 /*PAGINA DE PRODUCTO*/
