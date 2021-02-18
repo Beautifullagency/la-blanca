@@ -21,8 +21,9 @@
 
 <body class="body">
     <!--MENU-->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-flex">
+        <div class="max-w w-100 d-flex">
+        <a class="navbar-brand " href="#inicio">
             <img src="./img/logo-La-blanca.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -30,13 +31,13 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto ">
                 <li class="nav-item mx-xl-3">
                     <a class="nav-link m-2 active font2" aria-current="page" href="#quienes-somos">Quienes somos</a>
                 </li>
                 <li class="nav-item mx-xl-3">
-                    <a class="nav-link font2 m-2" href="#productos">Productos</a>
+                    <a class="nav-link font2 m-2  nu-16" href="#productos">Productos</a>
                 </li>
                 <li class="nav-item mx-xl-3">
                     <a class="nav-link m-2 font2" href="#recetas">Recetas</a>
@@ -46,14 +47,15 @@
                 </li>
             </ul>
         </div>
+    </div>
     </nav>
     <!--SLIDER-->
     <div class="car" id="car">
-        <div class="container-titulo">
+        <div class="container-titulo" >
             <h1 class="nu-44">Llevamos <span class="color">el mejor dulce de leche</span></h1>
             <h1 class="nu-44"><span class="color"> de Argentina</span> al mundo</h1>
         </div>
-        <div class="car-inner">
+        <div class="car-inner" id="inicio">
             <input class="car-open" type="radio" id="car-1" name="car" aria-hidden="true" hidden="" checked="checked">
             <div class="car-item">
                 <img class="i1" src="./img/slide1.png">
@@ -106,8 +108,8 @@
                     principales proveedores de dulce de leche para industrias de todo el país y consolidamos una
                     historia de más de 20 años llevando el sabor más argentino a cada rincón del mundo</p>
                 <div class="logos d-flex">
-                    <img class="mr-sm-5" src="./img/Logo-FSSC.png" alt="">
-                    <img src="./img/Logo-SENASA.png" alt="">
+                    <img class="mr-sm-5" src="./img/Logo-FSSC.png" id="productos" alt="fssfc2000">
+                    <img src="./img/Logo-SENASA.png" alt="senasa">
                 </div>
 
             </div>
@@ -116,6 +118,7 @@
     <!--SECCION 3 -->
     
     <iframe class="frame" src="./productos/index.html" frameborder="0"></iframe>
+    <span id="recetas"></span>
     <!--SECCION 4-->
 
 
@@ -354,7 +357,7 @@
         </div>
     </div>
     <!--SECCION 5-->
-    <div class="sec-5">
+    <div class="sec-5" id="contacto">
         <div class="container max-w ">
             <div class="row">
                 <div class="col-sm text-white text-header">

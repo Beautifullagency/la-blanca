@@ -77,7 +77,17 @@ function render(name) {
               const pP1 = document.createElement('p')
               const pH5a = document.createElement('h5')
               const pP2 = document.createElement('p')
-              const pImg2 = document.createElement('img')
+              const pDiv3 = document.createElement('div')
+              const pUl = document.createElement('ul')
+              const pLi1 = document.createElement('li')
+              const pLi2 = document.createElement('li')
+              const pLi3 = document.createElement('li')
+              const pP3 = document.createElement('p')
+              const pP4 = document.createElement('p')
+              const pP5 = document.createElement('p')
+              const pSpan1 = document.createElement('span')
+              const pSpan2 = document.createElement('span')
+              const pSpan3 = document.createElement('span')
               const pBtn = document.createElement('button')
               /*COL-1*/
               pDiv.className =
@@ -94,9 +104,23 @@ function render(name) {
               pH5.textContent = 'Descripción'
               pP1.textContent = producto.descripcion
               pH5a.textContent = 'Composición'
-              pP2.textContent = producto.composicion
-              pImg2.src = producto.informacion
-              pImg2.alt = producto.nombre
+              pP2.textContent = producto.composicion 
+              /*TABLA*/  
+              pDiv3.className = 'tbl-producto'        
+              pP3.textContent = `Producto: `
+              pSpan1.textContent = `${producto.nombre}`
+
+              pLi1.className = 'tbl-item'
+
+              pP4.textContent = `Marca: `
+              pSpan2.textContent = `${producto.marca}`
+              
+              pLi2.className = 'tbl-item'
+              pP5.textContent = 'Envase: '
+              pSpan3.textContent = `Cuñete de 3k, 10kg y 25kg`
+
+              pLi3.className = 'tbl-item'
+              /*BOTON*/
               pBtn.textContent = 'Ver información nutricional'
               pBtn.className = 'btn-producto'
               pBtn.onclick = () => window.open(producto.pdf, 'Download')
@@ -111,7 +135,17 @@ function render(name) {
               pDiv2.appendChild(pP1)
               pDiv2.appendChild(pH5a)
               pDiv2.appendChild(pP2)
-              pDiv2.appendChild(pImg2)
+              pDiv2.appendChild(pDiv3)
+              pDiv3.appendChild(pUl)
+              pUl.appendChild(pLi1)
+              pUl.appendChild(pLi2)
+              pUl.appendChild(pLi3)
+              pLi1.appendChild(pP3)
+              pP3.appendChild(pSpan1)
+              pLi2.appendChild(pP4)
+              pP4.appendChild(pSpan2)
+              pLi3.appendChild(pP5)
+              pP5.appendChild(pSpan3)
               pDiv2.appendChild(pBtn)
             }
             renderProducto()

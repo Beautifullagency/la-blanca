@@ -5,6 +5,7 @@
 }
 html,
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -85,7 +86,7 @@ body {
 }
 .nav-link {
   font-family: 'Nunito Sans';
-  font-size: min(2vw, 22px);
+  font-size: min(2vw, 16px);
   width: 100%;
 }
 .nav-link button {
@@ -100,10 +101,16 @@ body {
   
 }
 .nav-link:hover {
-  color: rgb(216, 216, 216);
+  font-weight: 600;
+}
+.navbar-brand {
+  width: 20%;
 }
 .navbar-brand img {
-  width: 100%;
+  width: 60%;
+}
+.navbar-collapse{
+ width: 80%;
 }
 /*SECCION 3*/
 .frame {
