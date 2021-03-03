@@ -1,79 +1,94 @@
 {
     "productos": [
         {
+            "id": "10",
             "nombre": "Matinal entero",
             "marca": "Matinal",
             "categoria": "Familiar",
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionada de azucares: sacarosa y glucosa.",
             "composicion": "Leche fluida, azúcar blanco, jarabe de glucosa. Regulador de acidez: Bicarbonato de sodio.Conservador: Sorbato de potasio  Aromatizante: Esencia de vainilla.",
             "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
+            "cantidad": "Cuñete de 10kg. y 20kg.",
+            "pdf": "./img/info/informacion-nuticional-familiar-blando.jpg",
             "imgMiniatura": "./img/miniatura/matinal-entero.png",
             "imgGrande": "./img/grande/matinal-entero-grande.png"
         },
         {
+            
+            "id": "11",
             "nombre": "Matinal descremado",
             "marca": "Matinal",
             "categoria": "Familiar",
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionada de azucares: sacarosa y glucosa.",
             "composicion": "Leche fluida, azúcar blanco, jarabe de glucosa. Regulador de acidez: Bicarbonato de sodio.Conservador: Sorbato de potasio  Aromatizante: Esencia de vainilla.",
             "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
+            "cantidad": "Cuñete de 10kg. y 20kg.",
+            "pdf": "./img/info/informacion-nuticional-familiar-descremado.jpg",
             "imgMiniatura": "./img/miniatura/matinal-descremado.png",
             "imgGrande": "./img/grande/matinal-descremado-grande.png"
         },
         {
+            "id": "12",
             "nombre": "La Agustina Afajorero",
             "marca": "La Agustina",
             "categoria": "Repostero",
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida,adicionado de azucares: sacarosa y glucosa, y otras sustancias alimenticias",
             "composicion": "Leche , azúcar blanco, jarabe de glucosa. Espesante: almidón modificado. Estabilizantes: Carragenina Agar.Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
             "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
+            "cantidad": "Cuñete de 10,25kg. y tambor por 250kg.",
+            "pdf": "./img/info/informacion-nuticional-alfajorero-La-Agustina.jpg",
             "imgMiniatura": "./img/miniatura/la-agustina-alfajorero.png",
             "imgGrande": "./img/grande/la-agustina-alfajorero.png"
         },
-        {
+        {   
+            "id": "13",
             "nombre": "Matinal para sembrar",
             "marca": "Matinal",
             "categoria": "Repostero",
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida,adicionada de azucares: sacarosa y glucosa y almidones modificados.",
             "composicion": "Leche , azúcar blanco, jarabe de glucosa. Espesante: almidón modificado, Agar,Agar. Estabilizantes: Monoestearato de glicérido. Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
-            "informacion": "./img/info/matinal-entero-info.png",
+            "informacion": "./img/info/informacion-nuticional-Repostero-Matinal.jpg",
+            "cantidad": "Caja por 10kg.",
             "pdf": "./img/info/matinal-entero-info.png",
             "imgMiniatura": "./img/miniatura/matinal-entero.png",
             "imgGrande": "./img/grande/matinal-entero-grande.png"
         },
         {
+            "id": "14",
             "nombre": "Josefina Repostero",
             "marca": "Josefina",
             "categoria": "Repostero",
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras  sustancias alimenticias. Se determina el punto final de  cocción al alcanzar 76% de sólidos solubles.",
             "composicion": "Leche , azúcar blanco,grasa refinada,  jarabe de glucosa,  almidón modificado. Estabilizantes: Carragenina Agar.Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
             "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
+            "cantidad": "Cuñete de 3kg. 5kg. y 10kg.",
+            "pdf": "./img/info/informacion-nuticional-repostero-josefina.jpg",
             "imgMiniatura": "./img/miniatura/josefina-repostero.png",
             "imgGrande": "./img/grande/Josefina-Grande.png"
         },
         {
+            "id": "15",
             "nombre": "Sosiego Repostero",
             "marca": "El Sosiego",
             "categoria": "Repostero",
             "descripcion": "Producto obtenido por concentración y acción del calor apresión normal de leche o leche reconstituida,adicionado de azucares: sacarosa y glucosa, y otras sustancias alimenticias.",
             "composicion": "Leche , azúcar blanco,grasa refinada,  jarabe de glucosa,  almidón modificado. Estabilizantes: Carragenina Agar.Conservador: Sorbato de potásio. Aromatizante: Esencia de vainilla. Regulador de acidez: Bicarbonato de sodio",
             "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
+            "cantidad": "Cuñete de 10kg. y 20kg.",
+            "pdf": "./img/info/informacion-nuticional-repostero-sosiego.jpg",
             "imgMiniatura": "./img/miniatura/sosiego-repostero.png",
             "imgGrande": "./img/grande/Sosiego-grande.png"
         },
         {
+            "id": "16",
             "nombre": "La Agustina",
             "marca": "La Agustina",
             "categoria": "Heladero",
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionado de azucares: sacarosa y glucosa, y otras sustancias alimenticias. Se determina el punto final de cocción al alcanzar 70% de sólidos solubles.",
             "composicion": "Leche entera fluida, azúcar blanca, jarabe de glucosa, suero en polvo. Colorante: Caramelo. Regulador de acidez: Bicarbonato de sodio.",
             "informacion": "./img/info/matinal-entero-info.png",
-            "pdf": "./img/info/matinal-entero-info.png",
+            "cantidad": "Cuñete de 10kg. y a granel.",
+            "pdf": "./img/info/informacion-nuticional-heladero-La-Agustina.jpg",
             "imgMiniatura": "./img/miniatura/LaAgustina-Chico.png",
             "imgGrande": "./img/grande/laAgustina-grande.png"
         }      

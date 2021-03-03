@@ -10,6 +10,8 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
 }
 .body {
   background-color: #f8f8f8;
@@ -252,7 +254,7 @@ body {
   background-image: url('../img/Background.png');
 }
 .sec-4-1 {
-  width: 70% !important;
+  width: 85% !important;
 }
 
 /*SECCION 4 MODAL*/

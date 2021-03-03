@@ -8,6 +8,7 @@ categoria1.addEventListener('click', categoria1Click)
 categoria2.addEventListener('click', categoria2Click)
 categoria3.addEventListener('click', categoria3Click)
 
+
 $(window).on("load", function(){
   categoria1Click()
 })
@@ -89,6 +90,7 @@ function render(name) {
               const pSpan2 = document.createElement('span')
               const pSpan3 = document.createElement('span')
               const pBtn = document.createElement('button')
+              const pImg2 = document.createElement('img')
               /*COL-1*/
               pDiv.className =
                 'col-sm d-block v-align text-center ms-xl-4 producto'
@@ -117,13 +119,30 @@ function render(name) {
               
               pLi2.className = 'tbl-item'
               pP5.textContent = 'Envase: '
-              pSpan3.textContent = `Cuñete de 3k, 10kg y 25kg`
+              pSpan3.textContent = `${producto.cantidad}`
 
               pLi3.className = 'tbl-item'
               /*BOTON*/
               pBtn.textContent = 'Ver información nutricional'
-              pBtn.className = 'btn-producto'
-              pBtn.onclick = () => window.open(producto.pdf, 'Download')
+              pBtn.className = 'btn-producto card-text nu-16 ct'
+              pBtn.dataset.name = "modal"
+              pBtn.dataset.target = `#exampleModalLong${producto.id}`
+              pBtn.dataset.toggle = `modal`
+              
+              /*modal*/
+               
+
+              $('.modal').attr("id",`exampleModalLong${producto.id}`) 
+              $('.img-modal').attr("src",`${producto.pdf}`) 
+           
+              
+             
+
+              /*  tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true"*/
+
+
+
               /*APENDA AL DOM  */
               /*COL 1 */
               catProducto.appendChild(pDiv)

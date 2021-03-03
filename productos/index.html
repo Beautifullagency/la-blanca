@@ -14,31 +14,52 @@
 <body style="overflow:hidden;">
     <div class="productos py-ms-5 m-ms-5 px-3 max-w">
         <h2 class="color max-w nu-32 mb-0 mx-sm-auto tit fw-norma"><span class="titulo-prod">Productos </span><span
-            class="color tit-prod">/</span> Dulce de leche para la industria</h2>
+                class="color tit-prod">/</span> Dulce de leche para la industria</h2>
         <div class="max-w botones pt-sm-3">
             <button class="categoria-producto nu-26 ms-0" id="categoria1" data-name="Familiar">Familiar</button>
             <button class="categoria-producto nu-26" id="categoria2" data-name="Repostero">Repostero</button>
             <button class="categoria-producto nu-26" id="categoria3" data-name="Heladero">Heladero</button>
         </div>
         <div class="container max-w">
-            <div class="row m-sm-4" id="tarjetas-miniaturas">                
-            </div>            
+            <div class="row m-sm-4" id="tarjetas-miniaturas">
+            </div>
         </div>
         <hr class="linea max-w mt-0 mb-3">
-        <div class="container m-ms-5  py-1 max-w pe-sm-5" >
+        <div class="container m-ms-5  py-1 max-w pe-sm-5">
             <div class="row" id="catalogo-producto"></div>
+                    <!-- Modal -->
+  <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" id="exampleModalLong11">
+    <div class="modal-dialog" id="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Información nutricional</h5>
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="img-modal" src="" alt="">
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
         </div>
 
+     
     </div>
+    
+  
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 
     <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+  
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

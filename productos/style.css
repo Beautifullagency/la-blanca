@@ -1,6 +1,6 @@
 /*HERRAMIENTAS*/
-html {
-  background-color: #f8f8f8;
+html, body {
+  background-color: #f8f8f8 !important;
   box-sizing: border-box;
 }
 *,
@@ -55,7 +55,7 @@ html {
 .categoria-producto:focus {
   outline: none;
   background: #ff4438;
-  color: #ffffff;
+  color: #f5f5f5;
 }
 .op-1 {
   opacity: 1;
@@ -160,6 +160,19 @@ html {
   color: #605f5f;
 }
 
+
+.modal-footer button {
+  background-color: #ff4438 ;
+  border: none;
+}
+#modal-dialog {
+  max-width: 60%;
+  margin: 15% auto;
+}
+.img-modal {
+ width: 100%;
+
+}
 @media (max-width: 426px) {
   .botones {
     margin-top: 10px;
