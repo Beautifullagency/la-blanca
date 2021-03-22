@@ -1,76 +1,70 @@
-let categorias = document.getElementsByClassName("categoria");
+let categoria1 = document.getElementById("categoria1");
+let categoria2 = document.getElementById("categoria2");
+let categoria3 = document.getElementById("categoria3");
+
 let itemsCat1 = document.getElementById("tarjetas-miniaturas");
 let catProducto = document.getElementById("catalogo-producto");
-const cursor = ["inicio", "inicio"];
+categoria1.addEventListener("click", categoria1Click);
+categoria2.addEventListener("click", categoria2Click);
+categoria3.addEventListener("click", categoria3Click);
 
-$(window).on("load", function () {});
+$(window).on("load", function () {
+  categoria1Click();
+});
 
-for (const categoria of categorias) {
-  if (cursor[0] === "inicio") {
-    cursor[0] = categoria.dataset.name;
-    render(cursor[0]);
-    categoria.classList.toggle("cursor-button");
-  }
+let cont = true;
 
-  categoria.addEventListener("click", () => {
-    cursor[0] = categoria.dataset.name;
-    borrarCursor();
-    categoria.classList.toggle("cursor-button");
-    let name = categoria.dataset.name;
-    render(name);
-    borrar();
-  });
+function categoria1Click() {
+  let name = categoria1.dataset.name;
+  borrar();
+  render(name);
+}
+function categoria2Click() {
+  let name = categoria2.dataset.name;
+  borrar();
+  render(name);
+}
+function categoria3Click() {
+  let name = categoria3.dataset.name;
+  borrar();
+  render(name);
 }
 
-function render(cat) {
-  fetch("data.json")
-    .then((res) => res.json())
-    .then((res) => {
-      res.productos.forEach((producto) => {
-        if (producto.categoria === cat) {
-          //cursor[1] = producto.nombre;
+function render(name) {
+  if (cont) {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((res) => {
+        res.productos.forEach((producto) => {
+          if (producto.categoria === name) {
+            /*CREA LOS ELEMENTOS PARA EL DOM */
+            const div1 = document.createElement("div");
+            const div2 = document.createElement("div");
+            const div3 = document.createElement("button");
+            const img = document.createElement("img");
+            const titulo = document.createElement("h5");
+            /*BASE DE LOS DIVS */
+            div1.className = "col-3 tarjeta";
+            div1.id = "tarjeta";
+            div1.onclick = renderProducto;
+            div2.className = "img-min b";
+            div2.focus();
+            div3.className = "img-miniatura";
+            /*INYECCION DE INFO */
+            img.src = producto.imgMiniatura;
+            img.alt = producto.nombre;
+            img.className = "miniatura";
+            titulo.className = "my-4 titulo nu-20";
+            titulo.textContent = producto.nombre;
+            /*AGREGA LOS ELEMENTOS AL DOM*/
+            itemsCat1.appendChild(div1);
+            $(".tarjeta").addClass("op-1");
+            div1.appendChild(div2);
+            div2.appendChild(div3);
+            div3.appendChild(img);
+            div3.appendChild(titulo);
 
-          /*CREA LOS ELEMENTOS PARA EL DOM */
-          const div1 = document.createElement("div");
-          const div2 = document.createElement("div");
-          const div3 = document.createElement("button");
-          const img = document.createElement("img");
-          const titulo = document.createElement("h5");
-
-          /*BASE DE LOS DIVS */
-          div1.className = "col-3 tarjeta";
-          div1.id = "tarjeta";
-          div1.addEventListener("click", renderProducto);
-          div1.addEventListener("click", () => div3.classList.toggle("cursor-img"));
-          div2.className = "img-min b";
-          div2.focus();
-          div3.className = "img-miniatura";
-          /* console.log("cursor", cursor); */
-          if (cursor[1] === "inicio") {
-            div3.classList.add("cursor-img");
-            /* console.log("cursor", cursor); */
-            cursor[1] = producto.nombre;
-            renderProducto(cursor[1])
-          }
-
-          /*INYECCION DE INFO */
-          img.src = producto.imgMiniatura;
-          img.alt = producto.nombre;
-          img.className = "miniatura";
-          titulo.className = "my-4 titulo nu-20";
-          titulo.textContent = producto.nombre;
-          /*AGREGA LOS ELEMENTOS AL DOM*/
-          itemsCat1.appendChild(div1);
-          $(".tarjeta").addClass("op-1");
-          div1.appendChild(div2);
-          div2.appendChild(div3);
-          div3.appendChild(img);
-          div3.appendChild(titulo);
-
-          function renderProducto(cursor) {
-            borrarCursor2()
-        
-            if (producto.nombre === producto.nombre) {
+            function renderProducto() {
               borrar2();
               /*CREA LOS ELEMENTOS PARA EL DOM */
               /*COL-1*/
@@ -97,8 +91,7 @@ function render(cat) {
               const pBtn = document.createElement("button");
               const pImg2 = document.createElement("img");
               /*COL-1*/
-              pDiv.className =
-                "col-sm d-block v-align text-center ms-xl-4 producto";
+              pDiv.className = "col-sm d-block v-align text-center ms-xl-4 producto";
               pDiv.id = "producto";
               pImg.className = "img-grande py-5";
               pImg.src = producto.imgGrande;
@@ -155,10 +148,11 @@ function render(cat) {
               pP5.appendChild(pSpan3);
               pDiv2.appendChild(pBtn);
             }
+            renderProducto();
           }
-        }
+        });
       });
-    });
+  }
 }
 
 function borrar2() {
@@ -177,16 +171,4 @@ function borrar() {
     let div2 = document.getElementById("tarjeta");
     itemsCat1.removeChild(div2);
   });
-}
-
-function borrarCursor() {
-  for (const categoria of categorias) {
-    categoria.classList.remove("cursor-button");
-  }
-}
-function borrarCursor2() {
-  let imgMin = document.getElementsByClassName("img-miniatura");
-  for (const img of imgMin) {
-    img.classList.remove("cursor-img");
-  }
 }
