@@ -49,11 +49,11 @@
 }
 
 .car-control.prev {
-  left: 2%;
+  left: 1%;
 }
 
 .car-control.next {
-  right: 2%;
+  right: 1%;
 }
 
 .car-control:hover {
@@ -131,7 +131,7 @@
     height: 80%;   
   } 
   .container-titulo {
-    bottom: 180px !important;   
+    bottom: 170px !important;   
   }
   .car-indicators {
     bottom: 20% !important;

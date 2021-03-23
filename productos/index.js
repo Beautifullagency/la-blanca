@@ -41,13 +41,17 @@ function render(cat) {
           div1.className = "col-3 tarjeta";
           div1.id = "tarjeta";
           div1.addEventListener("click", renderProducto);
-          div1.addEventListener("click", () => div3.classList.toggle("cursor-img"));
-          div2.className = "img-min b";
+          div1.addEventListener("click", () => {
+            div3.classList.toggle("cursor-img")
+            div2.classList.toggle('cursor-shadow')
+          });
+          div2.className = "img-min";
           div2.focus();
           div3.className = "img-miniatura";
           /* console.log("cursor", cursor); */
           if (cursor[1] === "inicio") {
             div3.classList.add("cursor-img");
+            div2.classList.toggle('cursor-shadow')
             /* console.log("cursor", cursor); */
             cursor[1] = producto.nombre;
             renderProducto(cursor[1])
@@ -57,7 +61,7 @@ function render(cat) {
           img.src = producto.imgMiniatura;
           img.alt = producto.nombre;
           img.className = "miniatura";
-          titulo.className = "my-4 titulo nu-20";
+          titulo.className = "my-sm-4 titulo nu-20";
           titulo.textContent = producto.nombre;
           /*AGREGA LOS ELEMENTOS AL DOM*/
           itemsCat1.appendChild(div1);
@@ -69,9 +73,10 @@ function render(cat) {
 
           function renderProducto(cursor) {
             borrarCursor2()
-        
+            borrarCursor3()
             if (producto.nombre === producto.nombre) {
               borrar2();
+             
               /*CREA LOS ELEMENTOS PARA EL DOM */
               /*COL-1*/
               const pDiv = document.createElement("div");
@@ -100,7 +105,7 @@ function render(cat) {
               pDiv.className =
                 "col-sm d-block v-align text-center ms-xl-4 producto";
               pDiv.id = "producto";
-              pImg.className = "img-grande py-5";
+              pImg.className = "img-grande py-sm-5";
               pImg.src = producto.imgGrande;
               pImg.alt = producto.nombre;
               /*COL-2*/
@@ -188,5 +193,11 @@ function borrarCursor2() {
   let imgMin = document.getElementsByClassName("img-miniatura");
   for (const img of imgMin) {
     img.classList.remove("cursor-img");
+  }
+}
+function borrarCursor3() {
+  let imgMin2 = document.getElementsByClassName("img-min");
+  for (const img of imgMin2) {
+    img.classList.remove("cursor-shadow");
   }
 }
