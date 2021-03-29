@@ -8,7 +8,7 @@
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionada de azucares: sacarosa y glucosa.",
             "composicion": "Leche fluida, azúcar blanco, jarabe de glucosa. Regulador de acidez: Bicarbonato de sodio.Conservador: Sorbato de potasio  Aromatizante: Esencia de vainilla.",
             "informacion": "./img/info/matinal-entero-info.png",
-            "cantidad": "Cuñete de 10kg. y 20kg.",
+            "cantidad": "Cuñete de 10kg. y 25kg.",
             "pdf": "./img/info/informacion-nuticional-familiar-blando.jpg",
             "imgMiniatura": "./img/miniatura/matinal-entero.png",
             "imgGrande": "./img/grande/matinal-entero-grande.png"
@@ -22,7 +22,7 @@
             "descripcion": "Producto obtenido por concentración y acción del calor a presión normal de leche o leche reconstituida, adicionada de azucares: sacarosa y glucosa.",
             "composicion": "Leche fluida, azúcar blanco, jarabe de glucosa. Regulador de acidez: Bicarbonato de sodio.Conservador: Sorbato de potasio  Aromatizante: Esencia de vainilla.",
             "informacion": "./img/info/matinal-entero-info.png",
-            "cantidad": "Cuñete de 10kg. y 20kg.",
+            "cantidad": "Cuñete de 10kg. y 25kg.",
             "pdf": "./img/info/informacion-nuticional-familiar-descremado.jpg",
             "imgMiniatura": "./img/miniatura/matinal-descremado.png",
             "imgGrande": "./img/grande/matinal-descremado-grande.png"
@@ -50,8 +50,8 @@
             "informacion": "./img/info/informacion-nuticional-Repostero-Matinal.jpg",
             "cantidad": "Caja por 10kg.",
             "pdf": "./img/info/informacion-nuticional-Repostero-Matinal.jpg",
-            "imgMiniatura": "./img/miniatura/matinal-entero.png",
-            "imgGrande": "./img/grande/matinal-entero-grande.png"
+            "imgMiniatura": "./img/miniatura/matinal-para-sembrar.png",
+            "imgGrande": "./img/grande/matinal-para-sembrar.png"
         },
         {
             "id": "14",

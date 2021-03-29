@@ -201,3 +201,9 @@ function borrarCursor3() {
     img.classList.remove("cursor-shadow");
   }
 }
+
+
+
+
+
+
