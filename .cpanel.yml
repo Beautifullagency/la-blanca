@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home5/hrappzwg/public_html/
-    - /bin/cp -R lablanca $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
