@@ -16,7 +16,7 @@ $message .= "Teléfono de contacto: " . $phone . " \r\n";
 $message .= "Mensaje: " . $msj . " \r\n";
 $message .= "Enviado el: " . date('d/m/Y', time());
 
-$para = "javier_9333@hotmail.com";
+$para = "lablancacasa@lacteoslablanca.com.ar";
 $asunto = "Mensaje de mi sitio web";
 
 mail($para, $asunto, utf8_decode($message), $header);
